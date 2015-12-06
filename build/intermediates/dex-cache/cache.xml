@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="G:\Android\ListaContactosFragmentos\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="G:\Android\ListaContactosFragmentos\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-688a4bb75863d04c11cc98d9ce60396a6d72ea09.jar" />
+    </item>
+    <item
+        jar="G:\Android\ListaContactosFragmentos\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="G:\Android\ListaContactosFragmentos\app\build\intermediates\pre-dexed\debug\classes-882c23d05f6d5a2bf5d1499e0ac3dd749ba52db0.jar" />
+    </item>
+    <item
+        jar="C:\Users\javi\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="G:\Android\ListaContactosFragmentos\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-73fd4366bae2417ff8729951f5681f151ccfd5c2.jar" />
+    </item>
+    <item
+        jar="G:\Android\ListaContactosFragmentos\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="G:\Android\ListaContactosFragmentos\app\build\intermediates\pre-dexed\debug\classes-5af4047c6e5756d5dc55fd351eb8ababd6108b09.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="3dp">
+<!--
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/xnumero"
+        android:id="@+id/tvTelfFragmento2"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_alignTop="@+id/textTelf"
+        android:layout_toRightOf="@+id/textTelf"
+        android:layout_toEndOf="@+id/textTelf"
+        android:layout_alignBaseline="@+id/textTelf"
+        android:paddingLeft="8dp"
+        android:visibility="visible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre"
+        android:id="@+id/textNombre"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBaseline="@+id/tvNombreFragmento2"
+        android:visibility="visible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/xnombre"
+        android:id="@+id/tvNombreFragmento2"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textNombre"
+        android:layout_toEndOf="@+id/textNombre"
+        android:paddingLeft="8dp"
+        android:visibility="visible" />
+
+    <Space
+        android:layout_width="20dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tvNombreFragmento2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/space"
+        android:visibility="visible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/telef"
+        android:id="@+id/textTelf"
+        android:layout_below="@+id/space"
+        android:layout_alignLeft="@+id/space"
+        android:layout_alignStart="@+id/space"
+        android:visibility="visible" />
+
+    <Space
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/space2"
+        android:layout_below="@+id/tvTelfFragmento2"
+        android:layout_alignLeft="@+id/textTelf"
+        android:layout_alignStart="@+id/textTelf"
+        android:visibility="visible" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ivFoto"
+        android:layout_below="@+id/space2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_above="@+id/btExplorar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cambiar"
+        android:id="@+id/btCambiar"
+        android:onClick="editar"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+-->
+     <!-- EDICION -->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etNombreED"
+        android:hint="@string/nombre"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/spaceED"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBaseline="@+id/etNombreED" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/etTelfED"
+        android:hint="@string/telef"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/spaceED"
+        android:layout_marginRight="30dp"
+        android:layout_alignLeft="@+id/etNombreED"
+        android:layout_alignStart="@+id/etNombreED" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ivFoto"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/etTelfED"
+        android:layout_above="@+id/linearLayout" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/camara"
+            android:id="@+id/btCamara"
+            android:layout_weight="4" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/explorar"
+            android:id="@+id/btExplorar"
+            android:layout_weight="4" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/guardar"
+            android:id="@+id/btGuardar"
+            android:layout_weight="4" />
+    </LinearLayout>
+
+</RelativeLayout>
+
